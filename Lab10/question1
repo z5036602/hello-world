@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define TRUE 1
+#define FALSE 0 
+int non_decreasing (int *a,int num);
+int main(int argc,char *argv){
+    int num=6
+    
+
+
+
+
+
+int non_decreasing (int *a,int num){
+    int i=0;
+    int result=TRUE;
+    while(i<num-1){
+        if(a[i]>a[i+1]){
+            result=FALSE
+        }
+     }
+ 
+    return result;
+}   
+        
+
+    
+

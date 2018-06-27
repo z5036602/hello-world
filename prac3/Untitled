@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<assert.h>
+#include<string.h>
+int main(int argc,char *argv[]){
+    printf("do some shit\n");
+    int i=0;
+    int c=0;
+    int a[100]={0};
+    while(c!='\n'){
+        c=getchar;
+        a[i]=c;
+        i++;
+    }
+    shift_right(a,i)
+    int c=0;
+    while(c<=i){
+        printf("%d",a[c]);
+        c++;
+    }
+}
+
+void shift_right (int *array,int n){
+    int i =0;
+    int u[100]={0};
+    while(i<=n){
+        u[(i+1)%(n+1)]=array[i];
+        i++;
+    }
+    int c=0;
+    while(c<=n)
+        array[c]=u[c];
+        c++;
+    }
+}
